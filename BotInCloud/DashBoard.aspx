@@ -27,7 +27,7 @@
         </asp:RadioButtonList>
         <br/>
         <div>Предмет/Модуль: <asp:TextBox ID="NameTB" runat="server"></asp:TextBox></div>
-        <div>Описание: <asp:TextBox ID="DescTB" runat="server"></asp:TextBox></div>
+        <div>Описание: <asp:TextBox ID="DescTB" runat="server" TextMode="MultiLine"></asp:TextBox></div>
     </div>
         <asp:Button ID="SubmitBut" runat="server" Text="Отправить" OnClick="SubmitBut_Click" />
     <asp:Button ID="ClearBut" runat="server" Text="Очистить БД" OnClick="ClearBut_Click" />

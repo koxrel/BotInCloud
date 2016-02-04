@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
+using System.Web.UI.WebControls;
 using BotInCloud.DTO;
 using Newtonsoft.Json;
 
@@ -82,6 +83,7 @@ namespace BotInCloud
         private string GetHomeTask(Context db, string module)
         {
             return db.EnglishHomeTasks
+                .OrderBy(h => h.DueDate)
                 .FirstOrDefault(h => h.Module == module && h.DueDate >= DateTime.Today)?.ToString() ?? "Не найдено.";
         }
 

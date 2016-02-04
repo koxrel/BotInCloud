@@ -24,7 +24,7 @@ namespace BotInCloud
                     case 0:
                         var home = new EnglishHomeTask()
                         {
-                            Description = DescTB.Text,
+                            Description = string.Format(DescTB.Text),
                             Module = NameTB.Text,
                             DueDate = new DateTime(int.Parse(YearTB.Text), int.Parse(MonthTB.Text), int.Parse(DateTB.Text),
                                 int.Parse(HoursTB.Text), int.Parse(MinTB.Text), int.Parse(SecTB.Text))
@@ -34,7 +34,7 @@ namespace BotInCloud
                     case 1:
                         var assign = new Assignment()
                         {
-                            Description = DescTB.Text,
+                            Description = string.Format(DescTB.Text),
                             DueDate =
                                 new DateTime(int.Parse(YearTB.Text), int.Parse(MonthTB.Text), int.Parse(DateTB.Text),
                                     int.Parse(HoursTB.Text), int.Parse(MinTB.Text), int.Parse(SecTB.Text)),
