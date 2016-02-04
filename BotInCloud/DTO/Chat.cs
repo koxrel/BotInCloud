@@ -2,7 +2,7 @@
 
 namespace BotInCloud.DTO
 {
-    class Chat
+    public class Chat
     {
         [JsonProperty("id")]
         public int Id { get; set; }

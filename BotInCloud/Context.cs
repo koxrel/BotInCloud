@@ -10,6 +10,7 @@ namespace BotInCloud
     public class Context : DbContext
     {
         public DbSet<Assignment> Assignments { get; set; }
+        public DbSet<EnglishHomeTask> EnglishHomeTasks { get; set; }
         public Context() : base("Azure")
         {
             

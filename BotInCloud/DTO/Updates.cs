@@ -2,7 +2,7 @@
 
 namespace BotInCloud.DTO
 {
-    class Updates
+    public class Updates
     {
         [JsonProperty("result")]
         public Update[] UpdateArr { get; set; }

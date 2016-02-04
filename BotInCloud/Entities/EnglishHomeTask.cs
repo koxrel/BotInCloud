@@ -5,16 +5,16 @@ using System.Web;
 
 namespace BotInCloud.Entities
 {
-    public class Assignment
+    public class EnglishHomeTask
     {
         public int Id { get; set; }
         public DateTime DueDate { get; set; }
-        public string Name { get; set; }
+        public string Module { get; set; }
         public string Description { get; set; }
 
         public override string ToString()
         {
-            return $"{DueDate:d hh:mm:ss} - {Name}: {Description.ToLower()}";
+            return $"{Module}:\n{Description}";
         }
     }
 }
