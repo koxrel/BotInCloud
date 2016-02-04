@@ -21,5 +21,13 @@ namespace BotInCloud
         {
 
         }
+
+        protected void EnterButton_Click(object sender, EventArgs e)
+        {
+            if (PasswordTB.Text == Password)
+            {
+                Response.Redirect("DashBoard.aspx");
+            }
+        }
     }
 }

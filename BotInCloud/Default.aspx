@@ -12,8 +12,8 @@
         <div><span>Password: </span>
             <asp:TextBox ID="PasswordTB" runat="server"></asp:TextBox>
         </div>
-        <asp:Button ID="StopButton" runat="server" Text="Stop" OnClick="StopButton_Click" />
-        <asp:Button ID="RunButton" runat="server" Text="Run" OnClick="RunButton_Click" />
+        <asp:Button ID="EnterButton" runat="server" Text="Enter" OnClick="EnterButton_Click" />
+
     </div>
     </form>
 </body>

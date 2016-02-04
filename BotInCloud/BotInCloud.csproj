@@ -83,6 +83,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DashBoard.aspx" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\BotInCloud.pubxml" />
     <None Include="Web.Debug.config">
@@ -101,6 +102,13 @@
   <ItemGroup>
     <Compile Include="APICall.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="DashBoard.aspx.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard.aspx.designer.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DTO\Chat.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

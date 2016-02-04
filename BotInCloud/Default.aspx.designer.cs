@@ -31,21 +31,12 @@ namespace BotInCloud {
         protected global::System.Web.UI.WebControls.TextBox PasswordTB;
         
         /// <summary>
-        /// StopButton control.
+        /// EnterButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button StopButton;
-        
-        /// <summary>
-        /// RunButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button RunButton;
+        protected global::System.Web.UI.WebControls.Button EnterButton;
     }
 }

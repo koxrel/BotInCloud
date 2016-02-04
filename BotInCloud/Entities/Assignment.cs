@@ -14,7 +14,7 @@ namespace BotInCloud.Entities
 
         public override string ToString()
         {
-            return $"{DueDate:d hh:mm:ss} - {Name}: {Description.ToLower()}";
+            return $"{DueDate:d.MM.yyyy hh:mm:ss} - {Name}: {Description}";
         }
     }
 }
