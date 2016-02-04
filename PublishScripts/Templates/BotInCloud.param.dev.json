@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "BotInCloud"
+  },
+  "hostingPlanName": {
+    "value": "BotInCloud"
+  },
+  "siteLocation": {
+    "value": "West Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "65f9f9dd-0f25-4a52-9b61-3ecfa61fb6f3"
+  },
+  "resourceGroup": {
+    "value": "BotInCloud"
+  }
+}
